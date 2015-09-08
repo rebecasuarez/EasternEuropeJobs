@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'admin_pages/home'
+
+  get 'admin_pages/about'
+
+  get 'admin_pages/faq'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
